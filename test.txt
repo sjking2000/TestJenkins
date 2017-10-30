@@ -21,7 +21,7 @@ public class URLExpSimple {
             in.close();
         } catch (Exception e) {
             e.printStackTrace();
-Msg “test”
+test.2 run
         }
     }
 }
