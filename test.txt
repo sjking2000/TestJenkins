@@ -21,7 +21,7 @@ public class URLExpSimple {
             in.close();
         } catch (Exception e) {
             e.printStackTrace();
-test.2 run
+NAB.oopen = true
         }
     }
 }
