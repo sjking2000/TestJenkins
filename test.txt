@@ -21,11 +21,7 @@ public class URLExpSimple {
             in.close();
         } catch (Exception e) {
             e.printStackTrace();
-NAB.oopen = true
-
-Demop for Charlotte.true
-Yes
-Added more code
+Show.code = true/
         }
     }
 }
