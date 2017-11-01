@@ -21,7 +21,7 @@ public class URLExpSimple {
             in.close();
         } catch (Exception e) {
             e.printStackTrace();
-Show.code = true/
+Login.enabled = true
         }
     }
 }
