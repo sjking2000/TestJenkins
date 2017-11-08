@@ -1,3 +1,0 @@
-Added Log file
-Disabled Jenkins checkbox
-Jenkin
