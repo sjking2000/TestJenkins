@@ -1,7 +1,7 @@
 ﻿sssssssimport java.io.InputStreamReader;
 import java.net.URL;
 import java.net.URLConnection;
-import java.util.Scanner;ss
+import java.util.Scanner;sss
 
 
 public class URLExpSimple {
