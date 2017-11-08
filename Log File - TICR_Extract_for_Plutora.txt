@@ -1,0 +1,242 @@
+10/26/2017 3:30:25 AM == GetCurrentUserId start
+10/26/2017 3:30:25 AM Found user: 'etl@plutora.com (Integration Service)'
+10/26/2017 3:30:25 AM == GetCurrentUserId end
+10/26/2017 3:30:25 AM _currentUserId=174b5d00-18e1-46b4-a1da-ffd5e6a5633a
+10/26/2017 3:30:25 AM Executed for 'demops' subdomain
+10/26/2017 3:30:25 AM Starting task - ReleaseImportTICRTask
+10/26/2017 3:30:25 AM Read mapping
+10/26/2017 3:30:26 AM Parsing rows from file
+10/26/2017 3:30:29 AM Processing parsing rows into class models
+
+10/26/2017 3:30:25 AM Processed File Name: TICR_Extract_for_Plutora.xlsx
+
+10/26/2017 3:30:25 AM Total Records In The Integration File: 13240
+10/26/2017 3:30:25 AM Total Records Parsed: 1779
+10/26/2017 3:30:25 AM Total Records Parsed (IR_DATA): 2
+10/26/2017 3:30:25 AM Total Records Parsed (Financials): 92
+10/26/2017 3:30:25 AM Total Records Parsed (BusinessDrivers): 463
+10/26/2017 3:30:25 AM Total Records Parsed (OperationalImpacts): 0
+10/26/2017 3:30:25 AM Total Records Parsed (Dependencies): 43
+10/26/2017 3:30:25 AM Total Records Parsed (DeployActivities): 695
+10/26/2017 3:30:25 AM Total Records Parsed (Definitions): 330
+10/26/2017 3:30:25 AM Total Records Parsed (ChildIRs): 84
+10/26/2017 3:30:25 AM Total Records Parsed (ParentIRs): 70
+10/26/2017 3:30:25 AM Total Records Created New: 1
+10/26/2017 3:30:25 AM Total Records Updated: 1
+10/26/2017 3:30:25 AM Total Records Failed: 0
+10/26/2017 3:30:25 AM Total Records Skipped: 0
+
+10/26/2017 3:30:29 AM #IR17226 : process started
+10/26/2017 3:30:29 AM Release state contains in the SkipState list because it have state 'Submitted' value
+10/26/2017 3:30:30 AM The ReleaseRiskLevel value is 'TBD'
+10/26/2017 3:30:30 AM Can't find mapping ReleaseStatusType by 'Submitted' value, use the default 'Draft' value
+10/26/2017 3:30:30 AM The ReleaseStatusType value is 'Draft'
+10/26/2017 3:30:30 AM The ReleaseProjectType value is 'NotIsProject'
+10/26/2017 3:30:30 AM The RequirementsDefinitionStatus value is ''
+10/26/2017 3:30:30 AM The IR Type is 'Agile', the 'Requirements Reviews Complete' activity will be set to N/A (if it not set to Completed already)
+10/26/2017 3:30:30 AM The SolutionDefinitionStatus value is ''
+10/26/2017 3:30:30 AM The IRMovementUnderReleases value is 'IR Movement under Releases'
+10/26/2017 3:30:31 AM The SystemRoleDependencyType value is 'Code Implementation Dependency'
+10/26/2017 3:30:32 AM The mapping Dcp2Funding value is 'No'
+10/26/2017 3:30:32 AM The SetReleaseActivityFundingInPlaceToComplete is 'False'
+10/26/2017 3:30:32 AM The mapping DeploymentCategory value is ''
+10/26/2017 3:30:32 AM The DeploymentType value is 'Day 1'
+10/26/2017 3:30:32 AM Can't find Organization by 'IT Project Manager Area' value 'Digital Markets - Digital Prod - ProjDeliveryER'
+10/26/2017 3:30:32 AM Set the Organization as the top level organization of company
+10/26/2017 3:30:32 AM The Organization value is 'BCS111'
+10/26/2017 3:30:33 AM The 'IR17226' release exists in Plutora (previous load) and new parent release does not exist, so will move it to 'On Hold' release
+10/26/2017 3:30:33 AM The ImplementationDate value is empty and was taken from ParentRelease.ImplementationDate '12/31/2014 12:00:00 AM'
+10/26/2017 3:30:33 AM ParentRelease Identifier 'On Hold' value
+10/26/2017 3:30:33 AM The Parent Release is 'On Hold', so the release status will be 'Independent IR'
+10/26/2017 3:30:33 AM The ReleaseType value is 'Independent IR'
+10/26/2017 3:30:33 AM The DisplayColor value is '#333399'
+10/26/2017 3:30:33 AM IrMoveCOPYActivityValues is enabled with 0 items
+10/26/2017 3:30:33 AM Can't find user by ItProjectManagerEmail value: 'Chris.Rowland@team.telstra.com'
+10/26/2017 3:30:33 AM Can't find user by itProjectManagerName value: 'Chris Rowland'
+10/26/2017 3:30:36 AM User sucessfully created with 'IT Project Manager' Role: 'Chris Rowland(chris.rowland@team.telstra.com)'
+10/26/2017 3:30:56 AM TelstraTicrCreateOrUpdateRelease: started - 10/26/2017 3:30:36 AM
+10/26/2017 3:30:56 AM Updating existing release: 'IR17226'
+10/26/2017 3:30:56 AM Storing data
+10/26/2017 3:30:56 AM AddUpdateParentRelease: started - 10/26/2017 3:30:37 AM
+10/26/2017 3:30:56 AM Storing data
+10/26/2017 3:30:56 AM FromEnvironmentGroupMatch: '-'
+10/26/2017 3:30:56 AM ToEnvironmentGroupMatch: '-'
+10/26/2017 3:30:56 AM ECRScenarioAction: 'None'
+10/26/2017 3:30:56 AM EBRScenarioAction: 'None'
+10/26/2017 3:30:56 AM AddUpdateParentRelease: ended - 10/26/2017 3:30:38 AM
+10/26/2017 3:30:56 AM ===== IT_Project_Manager_Name ===== begin
+10/26/2017 3:30:56 AM The ItProjectManagerEmail parameter is 'Chris.Rowland@team.telstra.com'
+10/26/2017 3:30:56 AM Found user 'Chris Rowland (chris.rowland@team.telstra.com)' by the ItProjectManagerEmail parameter
+10/26/2017 3:30:56 AM Stakeholder 'Chris Rowland (chris.rowland@team.telstra.com)' was successfully added to release and marked as Accountable
+10/26/2017 3:30:56 AM ===== IT_Project_Manager_Name ===== end
+10/26/2017 3:30:56 AM Can't find ReleaseCustomField by value 'TICR: IT Project Manager'
+10/26/2017 3:30:56 AM Can't find ReleaseCustomField by value 'TICR: Description of Problem'
+10/26/2017 3:30:56 AM Can't find ReleaseCustomField by value 'TICR: Description of Impact'
+10/26/2017 3:30:56 AM Can't find ReleaseCustomField by value 'TICR: Functional Categorisation'
+10/26/2017 3:30:56 AM Can't find ReleaseCustomField by value 'TICR: IR Delivery Type'
+10/26/2017 3:30:56 AM Can't find ReleaseCustomField by value 'TICR: IR Category'
+10/26/2017 3:30:56 AM Can't find ReleaseCustomField by value 'TICR: Requirements Lead'
+10/26/2017 3:30:56 AM Can't find ReleaseCustomField by value 'TICR: EPM Owner (Business Sponsor)'
+10/26/2017 3:30:56 AM Can't find ReleaseCustomField by value 'TICR: Customer Segments'
+10/26/2017 3:30:56 AM Can't find ReleaseCustomField by value 'TICR: IT Project Manager Area'
+10/26/2017 3:30:56 AM Can't find ReleaseCustomField by value 'TICR: EPM Project Manager Area'
+10/26/2017 3:30:56 AM Can't find ReleaseCustomField by value 'TICR: EPM Project Manager'
+10/26/2017 3:30:56 AM Can't find ReleaseCustomField by value 'TICR: Requirements Lead Area'
+10/26/2017 3:30:56 AM Can't find ReleaseCustomField by value 'TICR: EPM Owner Area'
+10/26/2017 3:30:56 AM Can't find ReleaseCustomField by value 'TICR: Lead Constructor'
+10/26/2017 3:30:56 AM Can't find ReleaseCustomField by value 'TICR: Link to TICR Record'
+10/26/2017 3:30:56 AM Can't find ReleaseCustomField by value 'TICR: Business Drivers'
+10/26/2017 3:30:56 AM Can't find ReleaseCustomField by value 'TICR: Associated Parent IRs'
+10/26/2017 3:30:56 AM Can't find ReleaseCustomField by value 'Associated Business Event'
+10/26/2017 3:30:56 AM Can't find ReleaseCustomField by value 'Legal/Regulatory Requirement'
+10/26/2017 3:30:56 AM Previous ReleasePackages will be cleared: RP2015-01, RP2017-44
+10/26/2017 3:30:56 AM ReleasePackage 'RP2015-01' value was added for Release.ImplementationDate '12/31/2014 12:00:00 AM' value
+10/26/2017 3:30:56 AM ExcludeImpactedSystemLogic is 'False'
+10/26/2017 3:30:56 AM Found 1 previous existing systems which not exists now: 'MICA'
+10/26/2017 3:30:56 AM Starting of unlinking existing System 'MICA' from Release
+10/26/2017 3:30:56 AM Previous existing System 'MICA' was successfully unlinked from Release
+10/26/2017 3:30:56 AM ReleaseSystem 'MICA' hasn't been listed
+10/26/2017 3:30:56 AM Found 0 previous existing system deployment dates which not exists now: 
+10/26/2017 3:30:56 AM SystemDeploymentStartDate: '10/27/2017 12:00:00 AM', SystemDeploymentEndDate: '10/29/2017 12:00:00 AM', importing status: 'Target'
+10/26/2017 3:30:56 AM DeploymentType value is 'Day 1'
+10/26/2017 3:30:56 AM SystemDeploymentDate '10/29/2017 12:00:00 AM' was successfully added to ReleaseSystem 'MICA'
+10/26/2017 3:30:56 AM #ECR - 'TryFindExistingECRToNA' temporary disabled by P-3219
+10/26/2017 3:30:56 AM #ECR - Scenario Action is 'None'
+10/26/2017 3:30:56 AM #ECR - 'ECRScenarioAction.CreateNew' temporary disabled by P-3219
+10/26/2017 3:30:56 AM ReleasePackage 'RP2017-44' value was added for ReleaseSystem.DeploymentDate '10/29/2017 12:00:00 AM' value ('MICA' system)
+10/26/2017 3:30:56 AM UpdateReleaseActivityActualCompletedOnDate: 'Full Funding in Place'
+10/26/2017 3:30:56 AM CompletedOnDate: ''
+10/26/2017 3:30:56 AM UpdateReleaseActivityActualCompletedOnDate: 'IT Endorsed'
+10/26/2017 3:30:56 AM CompletedOnDate: ''
+10/26/2017 3:30:56 AM UpdateReleaseActivityStatus for 'Requirements Received'
+10/26/2017 3:30:56 AM Can't find ReleaseActivity by Identifier 'Requirements Received'
+10/26/2017 3:30:56 AM UpdateReleaseActivityActualCompletedOnDate: 'Requirements Received'
+10/26/2017 3:30:56 AM CompletedOnDate: '5/17/2017 12:00:00 AM'
+10/26/2017 3:30:56 AM Can't find ReleaseActivity by Title 'Requirements Received'
+10/26/2017 3:30:56 AM UpdateReleaseActivityStatus for 'Requirements Reviews Complete'
+10/26/2017 3:30:56 AM Can't find ReleaseActivity by Identifier 'Requirements Reviews Complete'
+10/26/2017 3:30:56 AM UpdateReleaseActivityActualCompletedOnDate: 'Requirements Reviews Complete'
+10/26/2017 3:30:56 AM CompletedOnDate: ''
+10/26/2017 3:30:56 AM UpdateReleaseActivityStatus for 'Solution Completed'
+10/26/2017 3:30:56 AM Can't find ReleaseActivity by Identifier 'Solution Completed'
+10/26/2017 3:30:56 AM UpdateReleaseActivityActualCompletedOnDate: 'Solution Completed'
+10/26/2017 3:30:56 AM CompletedOnDate: ''
+10/26/2017 3:30:56 AM Release 'IR17226' was successfully updated
+10/26/2017 3:30:56 AM TelstraTicrCreateOrUpdateRelease: ended - 10/26/2017 3:30:50 AM
+10/26/2017 3:30:56 AM TelstraTicrDetachEntities: started - 10/26/2017 3:30:50 AM
+10/26/2017 3:30:56 AM TelstraTicrDetachEntities: ended - 10/26/2017 3:30:56 AM
+10/26/2017 3:30:56 AM #IR17226 : process completed
+
+10/26/2017 3:30:56 AM #IR33377 : process started
+10/26/2017 3:30:56 AM The ReleaseRiskLevel value is 'TBD'
+10/26/2017 3:30:56 AM The ReleaseStatusType value is 'Solution'
+10/26/2017 3:30:56 AM The ReleaseProjectType value is 'NotIsProject'
+10/26/2017 3:30:56 AM The RequirementsDefinitionStatus value is ''
+10/26/2017 3:30:56 AM The SolutionDefinitionStatus value is ''
+10/26/2017 3:30:56 AM The IRMovementUnderReleases value is 'IR Movement under Releases'
+10/26/2017 3:30:56 AM The SystemRoleDependencyType value is 'Code Implementation Dependency'
+10/26/2017 3:30:56 AM The mapping Dcp2Funding value is 'No'
+10/26/2017 3:30:56 AM The SetReleaseActivityFundingInPlaceToComplete is 'False'
+10/26/2017 3:30:56 AM The mapping DeploymentCategory value is ''
+10/26/2017 3:30:56 AM The DeploymentType value is 'Day 1'
+10/26/2017 3:30:56 AM Can't find Organization by 'IT Project Manager Area' value 'GB2B IT - Concept to Market & Mobility'
+10/26/2017 3:30:56 AM Set the Organization as the top level organization of company
+10/26/2017 3:30:56 AM The Organization value is 'BCS111'
+10/26/2017 3:30:57 AM The 'IR33377' release doesn't exists in Plutora (previous load)
+10/26/2017 3:30:57 AM The ParentReleaseIdentifier value is 'R1702'
+10/26/2017 3:30:57 AM ParentRelease Identifier 'R1702' value
+10/26/2017 3:30:57 AM The ReleaseType value is 'Enterprise IR'
+10/26/2017 3:30:57 AM The DisplayColor value is '#ffff00'
+10/26/2017 3:30:57 AM IrMoveCOPYActivityValues is enabled with 0 items
+10/26/2017 3:30:57 AM Found user by ItProjectManagerEmail value: 'Priya Test(priyaplutora@gmail.com)'
+10/26/2017 3:31:16 AM TelstraTicrCreateOrUpdateRelease: started - 10/26/2017 3:30:57 AM
+10/26/2017 3:31:16 AM Creating new release
+10/26/2017 3:31:16 AM Storing data
+10/26/2017 3:31:16 AM AddUpdateParentRelease: started - 10/26/2017 3:30:59 AM
+10/26/2017 3:31:16 AM CopyParentReleaseEntities: started - 10/26/2017 3:30:59 AM
+10/26/2017 3:31:16 AM removing ChangeRequests: started - 10/26/2017 3:30:59 AM
+10/26/2017 3:31:16 AM There are no any previous ChangeRequests for updating
+10/26/2017 3:31:16 AM removing ChangeRequests: ended - 10/26/2017 3:30:59 AM
+10/26/2017 3:31:16 AM removing Activities: started - 10/26/2017 3:30:59 AM
+10/26/2017 3:31:16 AM There are no any previous ReleaseActivities for deleting
+10/26/2017 3:31:16 AM removing Activities: ended - 10/26/2017 3:30:59 AM
+10/26/2017 3:31:16 AM removing Stakeholders: started - 10/26/2017 3:30:59 AM
+10/26/2017 3:31:16 AM There are no any previous Stakeholders for deleting
+10/26/2017 3:31:16 AM removing Stakeholders: ended - 10/26/2017 3:30:59 AM
+10/26/2017 3:31:16 AM removing Phases / Gates: started - 10/26/2017 3:30:59 AM
+10/26/2017 3:31:16 AM There are no any previous WorkItems for deleting
+10/26/2017 3:31:16 AM removing Phases / Gates: ended - 10/26/2017 3:30:59 AM
+10/26/2017 3:31:16 AM adding Phases / Gates: started - 10/26/2017 3:30:59 AM
+10/26/2017 3:31:16 AM There are no any new WorkItems for adding
+10/26/2017 3:31:16 AM adding Phases / Gates: ended - 10/26/2017 3:30:59 AM
+10/26/2017 3:31:16 AM adding ChangeRequests: started - 10/26/2017 3:30:59 AM
+10/26/2017 3:31:16 AM adding ChangeRequests: ended - 10/26/2017 3:30:59 AM
+10/26/2017 3:31:16 AM adding Stakeholders: started - 10/26/2017 3:30:59 AM
+10/26/2017 3:31:16 AM There are no any new Stakeholders for adding
+10/26/2017 3:31:16 AM adding Stakeholders: ended - 10/26/2017 3:30:59 AM
+10/26/2017 3:31:16 AM adding Activities: started - 10/26/2017 3:30:59 AM
+10/26/2017 3:31:16 AM There are no any new ReleaseActivities for adding
+10/26/2017 3:31:16 AM adding Activities: ended - 10/26/2017 3:30:59 AM
+10/26/2017 3:31:16 AM CopyParentReleaseEntities: ended - 10/26/2017 3:30:59 AM
+10/26/2017 3:31:16 AM ParentRelease was added with 'R1702' value
+10/26/2017 3:31:16 AM Storing data
+10/26/2017 3:31:16 AM FromEnvironmentGroupMatch: '-'
+10/26/2017 3:31:16 AM ToEnvironmentGroupMatch: '-'
+10/26/2017 3:31:16 AM ECRScenarioAction: 'CreateNew'
+10/26/2017 3:31:16 AM EBRScenarioAction: 'CreateNew'
+10/26/2017 3:31:16 AM ***** IR_Movement_under_Releases ***** : begin
+10/26/2017 3:31:16 AM Can't find ReleaseCustomField by value 'IR Movement under Releases'
+10/26/2017 3:31:16 AM ***** IR_Movement_under_Releases ***** : end
+10/26/2017 3:31:16 AM AddUpdateParentRelease: ended - 10/26/2017 3:31:01 AM
+10/26/2017 3:31:16 AM ===== IT_Project_Manager_Name ===== begin
+10/26/2017 3:31:16 AM The ItProjectManagerEmail parameter is 'priyaplutora@gmail.com'
+10/26/2017 3:31:16 AM Found user 'Priya Test (priyaplutora@gmail.com)' by the ItProjectManagerEmail parameter
+10/26/2017 3:31:16 AM Stakeholder 'Priya Test (priyaplutora@gmail.com)' was successfully added to release and marked as Accountable
+10/26/2017 3:31:16 AM ===== IT_Project_Manager_Name ===== end
+10/26/2017 3:31:16 AM Can't find ReleaseCustomField by value 'TICR: IT Project Manager'
+10/26/2017 3:31:16 AM Can't find ReleaseCustomField by value 'TICR: Description of Problem'
+10/26/2017 3:31:16 AM Can't find ReleaseCustomField by value 'TICR: Description of Impact'
+10/26/2017 3:31:16 AM Can't find ReleaseCustomField by value 'TICR: Functional Categorisation'
+10/26/2017 3:31:16 AM Can't find ReleaseCustomField by value 'TICR: IR Delivery Type'
+10/26/2017 3:31:16 AM Can't find ReleaseCustomField by value 'TICR: IR Category'
+10/26/2017 3:31:16 AM Can't find ReleaseCustomField by value 'TICR: Requirements Lead'
+10/26/2017 3:31:16 AM Can't find ReleaseCustomField by value 'TICR: EPM Owner (Business Sponsor)'
+10/26/2017 3:31:16 AM Can't find ReleaseCustomField by value 'TICR: Customer Segments'
+10/26/2017 3:31:16 AM Can't find ReleaseCustomField by value 'TICR: IT Project Manager Area'
+10/26/2017 3:31:16 AM Can't find ReleaseCustomField by value 'TICR: EPM Project Manager Area'
+10/26/2017 3:31:16 AM Can't find ReleaseCustomField by value 'TICR: EPM Project Manager'
+10/26/2017 3:31:16 AM Can't find ReleaseCustomField by value 'TICR: Requirements Lead Area'
+10/26/2017 3:31:16 AM Can't find ReleaseCustomField by value 'TICR: EPM Owner Area'
+10/26/2017 3:31:16 AM Can't find ReleaseCustomField by value 'TICR: Lead Constructor'
+10/26/2017 3:31:16 AM Can't find ReleaseCustomField by value 'TICR: Link to TICR Record'
+10/26/2017 3:31:16 AM Can't find ReleaseCustomField by value 'Associated Business Event'
+10/26/2017 3:31:16 AM Can't find ReleaseCustomField by value 'Legal/Regulatory Requirement'
+10/26/2017 3:31:16 AM Release.ReleasePackage list is empty
+10/26/2017 3:31:16 AM ReleasePackage 'RP2017-44' value was added for Release.ImplementationDate '10/26/2017 12:00:00 AM' value
+10/26/2017 3:31:16 AM ExcludeImpactedSystemLogic is 'True'
+10/26/2017 3:31:16 AM UpdateReleaseActivityActualCompletedOnDate: 'Full Funding in Place'
+10/26/2017 3:31:16 AM CompletedOnDate: ''
+10/26/2017 3:31:16 AM UpdateReleaseActivityActualCompletedOnDate: 'IT Endorsed'
+10/26/2017 3:31:16 AM CompletedOnDate: '12/23/2016 9:26:10 AM'
+10/26/2017 3:31:16 AM Can't find ReleaseActivity by Title 'IT Endorsed'
+10/26/2017 3:31:16 AM UpdateReleaseActivityStatus for 'Requirements Received'
+10/26/2017 3:31:16 AM Can't find ReleaseActivity by Identifier 'Requirements Received'
+10/26/2017 3:31:16 AM UpdateReleaseActivityActualCompletedOnDate: 'Requirements Received'
+10/26/2017 3:31:16 AM CompletedOnDate: '10/3/2016 12:00:00 AM'
+10/26/2017 3:31:16 AM Can't find ReleaseActivity by Title 'Requirements Received'
+10/26/2017 3:31:16 AM UpdateReleaseActivityStatus for 'Requirements Reviews Complete'
+10/26/2017 3:31:16 AM Can't find ReleaseActivity by Identifier 'Requirements Reviews Complete'
+10/26/2017 3:31:16 AM UpdateReleaseActivityActualCompletedOnDate: 'Requirements Reviews Complete'
+10/26/2017 3:31:16 AM CompletedOnDate: ''
+10/26/2017 3:31:16 AM UpdateReleaseActivityStatus for 'Solution Completed'
+10/26/2017 3:31:16 AM Can't find ReleaseActivity by Identifier 'Solution Completed'
+10/26/2017 3:31:16 AM UpdateReleaseActivityActualCompletedOnDate: 'Solution Completed'
+10/26/2017 3:31:16 AM CompletedOnDate: '12/22/2016 4:23:06 PM'
+10/26/2017 3:31:16 AM Can't find ReleaseActivity by Title 'Solution Completed'
+10/26/2017 3:31:16 AM Release 'IR33377' was successfully added
+10/26/2017 3:31:16 AM TelstraTicrCreateOrUpdateRelease: ended - 10/26/2017 3:31:10 AM
+10/26/2017 3:31:16 AM TelstraTicrDetachEntities: started - 10/26/2017 3:31:10 AM
+10/26/2017 3:31:16 AM TelstraTicrDetachEntities: ended - 10/26/2017 3:31:16 AM
+10/26/2017 3:31:16 AM #IR33377 : process completed
+
+10/26/2017 3:31:16 AM Complete task
