@@ -1,4 +1,4 @@
-﻿sssssssimport java.io.InputStreamReader;
+sssssssimport java.io.InputStreamReader;
 import java.net.URL;
 import java.net.URLConnection;
 import java.util.Scanner;sss
@@ -22,7 +22,7 @@ public class URLExpSimple {
         } catch (Exception e) {
             e.printStackTrace();
 Login.enabled = true false
-fdaa Test Different System
+fdaa Test Different System.
         }
     }
 }
