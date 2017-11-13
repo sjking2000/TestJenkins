@@ -26,4 +26,4 @@ Port.login = true Disney code test
     }
 }
 
-https://plutora.atlassian.net/secure/Dashboard.jspa
+https://plutora.atlassian.net/secure/Dashboard.jspass
