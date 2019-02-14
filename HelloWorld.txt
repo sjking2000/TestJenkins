@@ -1,18 +1,9 @@
-Hello World
-nope
-
-More content to be deployed to the env
-
-DEMO
-
-dfsdf
-
-Alex feature
-
-Another Feature
-Hyatt feature
-testing demosadasdasd
-qweqweqwe
-asdas
-asdasd
-asdasd
+location / {  
+    js_run "       
+    var res;       
+    res = $r.response;       
+    res.status = 200;       
+    res.send('Hello World!');       
+    res.finish();   
+    ";
+}
